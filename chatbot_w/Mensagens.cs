@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,26 +36,36 @@ namespace chatbot_w
                         Console.WriteLine("..."); // depois encaixar os métodos certos
                         break;
 
-                    
-
                     case 3:
                         Console.WriteLine("..."); // depois encaixar os métodos certos
                         break;
                     
-
                     case 4:
                     Console.WriteLine("..."); // depois encaixar os métodos certos
                         break;
             
-
                     case 5:
                         Console.WriteLine("..."); // depois encaixar os métodos certos
                         return;
-                    
-             
                     }
                 }
             }
         }
     }
-}
+
+    public class Suporte_Tec
+    {
+        public void Executar()
+        {
+            //Depois de criar a estrutura básica, vou usar o conector MySQL 
+            //para buscar as informações do cliente em uma tabela
+            string NomeCliente;
+            
+            Console.WriteLine ("Olá. Bem vindo ao Suporte ao Cliente.");
+            Console.WriteLine ("Para comerçamos, digite seu nome completo sem abreviações");
+            NomeCliente=Console.ReadLine();
+            // aqui vou adicionar um if para verificar se o cliente realmente existe na tabela MySQL
+        }
+    } // chave public class Suporte_Tec
+
+}// chave namespace
