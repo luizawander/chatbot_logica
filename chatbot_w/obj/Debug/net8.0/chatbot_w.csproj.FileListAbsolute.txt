@@ -1,0 +1,15 @@
+C:\chatbot_whatsapp_automatizado\chatbot_w\bin\Debug\net8.0\chatbot_w.exe
+C:\chatbot_whatsapp_automatizado\chatbot_w\bin\Debug\net8.0\chatbot_w.deps.json
+C:\chatbot_whatsapp_automatizado\chatbot_w\bin\Debug\net8.0\chatbot_w.runtimeconfig.json
+C:\chatbot_whatsapp_automatizado\chatbot_w\bin\Debug\net8.0\chatbot_w.dll
+C:\chatbot_whatsapp_automatizado\chatbot_w\bin\Debug\net8.0\chatbot_w.pdb
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.GeneratedMSBuildEditorConfig.editorconfig
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.AssemblyInfoInputs.cache
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.AssemblyInfo.cs
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.csproj.CoreCompileInputs.cache
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.sourcelink.json
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.dll
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\refint\chatbot_w.dll
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.pdb
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\chatbot_w.genruntimeconfig.cache
+C:\chatbot_whatsapp_automatizado\chatbot_w\obj\Debug\net8.0\ref\chatbot_w.dll
