@@ -29,7 +29,7 @@ namespace chatbot_w
                     switch (Escolha)
                     {
                     case 1:                    
-                        Console.WriteLine("..."); // depois encaixar os métodos certos
+                        new Suporte_Tec().Executar();
                         break;                    
 
                     case 2:                   
