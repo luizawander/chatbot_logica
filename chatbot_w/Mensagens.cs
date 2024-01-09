@@ -72,10 +72,9 @@ namespace chatbot_w
                 Console.WriteLine($"{NomeCliente}, escolha uma das opções abaixo: " );
                 Console.WriteLine("1: Minha internet não está funcionando.");
                 Console.WriteLine("2: Meu roteador não liga.");
-                Console.WriteLine("3: Identifiquei que meu fio está rompido.");
-                Console.WriteLine("4: Desejo mudar a senha da minha rede.");
-                Console.WriteLine("5: Desejo falar com um atendente da Zapzum");
-                Console.WriteLine("6: Sair");
+                Console.WriteLine("3: Desejo mudar os acessos da minha rede");
+                Console.WriteLine("4: Desejo falar com um atendente da Zapzum");
+                Console.WriteLine("5: Sair");
 
                 if (int.TryParse(Console.ReadLine(), out Esc1))
                 {
@@ -94,23 +93,19 @@ namespace chatbot_w
                                 string Resp2=Console.ReadLine();
 
                                  if(Resp2=="SIM")
-                               {
-                                    Console.WriteLine("Ok. Em até 48 horas um dos nossos técnicos irá fazer a visita técnica");
-                                    Console.WriteLine("Certifique-se que tenha uma pessoa em sua residência durante os nossos horário de atendimento (9h-18h).");
-                                    Console.WriteLine("Além disso, nosso atendimento só será feito mediante a presença de um responsável maior de idade");
-                                    Environment.Exit(0);
+                                {
+                                   new VisitaTec().Executar();
                                 }
 
                                  else 
                                 {
-                                    Console.WriteLine("Certo, parece que temos um erro com seus dados. Iremos te encaminhar para o atentimento com um dos nossos técnicos. Aguarde um minuto");
+                                    new ErroDados().Executar();
                                 }
                             }
 
                             else if (Resp == "NÃO")
                             {
-                                Console.WriteLine("Ok. Encerramos então nosso atendimento. Tenha um ótimo dia.");
-                                Environment.Exit(0);
+                                new Encerrar().Executar();
                             }     
                                 break;
 
@@ -118,20 +113,55 @@ namespace chatbot_w
                             Console.WriteLine("Certo. Primeiro verifique se todos os cabos estão conectatos de forma correta no roteador.");
                             Console.WriteLine("Além disso, também verifique se ele está devidamente ligado em uma tomada que funcione.");
                             Console.WriteLine("Caso você tenha feito tudo isso e ainda sim o problema persistiu, digite SIM");
+
                             string Resp3 = Console.ReadLine();
+
                             if(Resp3=="SIM")
-                               {
-                                    Console.WriteLine("Ok. Em até 48 horas um dos nossos técnicos irá fazer a visita técnica.");
-                                    Console.WriteLine("Certifique-se que tenha uma pessoa em sua residência durante os nossos horário de atendimento (9h-18h).");
-                                    Console.WriteLine("Além disso, nosso atendimento só será feito mediante a presença de um responsável maior de idade.");
-                                    Environment.Exit(0);
-                                }
+                            {
+                                new VisitaTec().Executar();
+                            }
                             else if (Resp3 == "NÃO")
                             {
-                                Console.WriteLine ("Ok. Encerramos então nosso atendimento. Tenha um ótimo dia.");
-                                Environment.Exit(0);
+                                new Encerrar().Executar();
                             }
-                        break;
+                            break;
+                        
+                        case 3:
+                            Console.WriteLine("Certo, parece que você deseja trocar a senha da sua rede.");
+                            Console.WriteLine("Podemos te encaminhar um link no qual você pode mudar manualmente. Caso você queira trocar sozinho, digite 1 e em seguida te encaminharemos as instruções,");
+                            Console.WriteLine("Mas se você preferir, podemos encaminhar um técnico até sua residência. Digite  2 caso prefira a assistência.");
+
+                            string Resp4 = Console.ReadLine();
+
+                            if (Resp4=="1")
+                            {
+                                new Manual().Executar();
+
+                                string Resp5 =Console.ReadLine();
+                                
+                                if (Resp5 == "1")
+                                {
+                                    Console.WriteLine("Certo, parece que você está tendo problemas com seu login. Te envinharemos um email contendo suas informações de acesso.");
+                                    Console.WriteLine("Confirma seu Email? _________. Se sim, digite 1. Se não, 2."); // puxar email da tabela
+                                    
+                                    string Resp6 = Console.ReadLine();
+
+                                    if (Resp6=="1")
+                                    {
+                                        Console.WriteLine("Ok, te encaminharemos o email e em seguida as instruções da alteração.");
+                                        new Manual().Executar();
+                                    }
+                                    else if (Resp6=="2")
+                                    {
+                                        new ErroDados().Executar();
+                                    }
+                                }
+                            }
+                            else if (Resp4=="2")
+                            {
+                                new VisitaTec().Executar();
+                            }
+                            break;
                     } 
                 } 
             }  // CHAVE WHILE  
