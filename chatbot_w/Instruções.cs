@@ -55,3 +55,20 @@ public class VisitaTec
         Environment.Exit(0);
     }
 }
+
+public class Atendente
+{
+    public void Executar()
+    {
+        Console.WriteLine("Ok. Aguarde alguns instante para que um dos nossos técnicos te atenda.");
+    }
+}
+
+public class Sair
+{
+    public void Executar()
+    {
+        Console.WriteLine("Certo, encerramos aqui nosso atendimento. Tenha um ótimo dia");
+        Environment.Exit(0);
+    }
+}

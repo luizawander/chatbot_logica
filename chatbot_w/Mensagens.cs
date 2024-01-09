@@ -162,8 +162,16 @@ namespace chatbot_w
                                 new VisitaTec().Executar();
                             }
                             break;
-                    } 
-                } 
+
+                        case 4:
+                            new Atendente().Executar();
+                            break;  
+
+                        case 5:
+                            new Sair().Executar();
+                            break; 
+                    } //while
+                } //if
             }  // CHAVE WHILE  
         }
     } // chave public class Suporte_Tec
