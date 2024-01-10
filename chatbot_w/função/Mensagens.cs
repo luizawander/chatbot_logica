@@ -33,7 +33,7 @@ namespace chatbot_w
                         break;                    
 
                     case 2:                   
-                        Console.WriteLine("..."); // depois encaixar os métodos certos
+                        new Suporte_Tec().Executar();
                         break;
 
                     case 3:
@@ -52,11 +52,4 @@ namespace chatbot_w
             }
         }
     }
-    public class Suporte_financeiro
-    {
-        public void Executar()
-        {
-        }// void
-    }// class suporte_financeiro
-
 } // chave namespace

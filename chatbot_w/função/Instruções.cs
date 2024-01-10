@@ -11,17 +11,17 @@ namespace chatbot_w
         public void Executar()
         {
             Console.WriteLine("Ok, você escolheu a opção manual. Aqui estão as instruções: ");
-                                Console.WriteLine("Passo 1: Abra o link abaixo: "); // aqui simular um link da provedora 
-                                Console.WriteLine("Passo 2: entre com seu login no portal da ZapZum e clique nos 3 pontos no canto superior direito da sua tela. Caso não saiba seu login e sua senha, digite 1. Em seguidas te encaminharemos um email contendo suas informações de acesso.");
-                                Console.WriteLine("Passo 3: Vá em configações e selecione a opção 'Alterar acesso de rede' e por fim, faça a mudança do nome de sua rede ou de sua senha");
-                                Console.WriteLine("Caso tenha conseguido realizar a alteração, digite 2 e encerraremos nosso atentimeno");
+            Console.WriteLine("Passo 1: Abra o link abaixo: "); // aqui simular um link da provedora 
+            Console.WriteLine("Passo 2: entre com seu login no portal da ZapZum e clique nos 3 pontos no canto superior direito da sua tela. Caso não saiba seu login e sua senha, digite 1. Em seguidas te encaminharemos um email contendo suas informações de acesso.");
+            Console.WriteLine("Passo 3: Vá em configações e selecione a opção 'Alterar acesso de rede' e por fim, faça a mudança do nome de sua rede ou de sua senha");
+            Console.WriteLine("Caso tenha conseguido realizar a alteração, digite 2 e encerraremos nosso atentimeno");
 
-                                string Resp7= Console.ReadLine();
+            string Resp7= Console.ReadLine();
 
-                                if (Resp7== "2")
-                                {
-                                    new Encerrar().Executar();
-                                }
+            if (Resp7== "2")
+            {
+                new Encerrar().Executar();
+            }
         }
     }
 }
@@ -68,7 +68,7 @@ public class Sair
 {
     public void Executar()
     {
-        Console.WriteLine("Certo, encerramos aqui nosso atendimento. Tenha um ótimo dia");
+        Console.WriteLine("Encerro aqui seu atendimento. Tenha um ótimo dia");
         Environment.Exit(0);
     }
 }

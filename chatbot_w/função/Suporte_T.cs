@@ -9,14 +9,14 @@ namespace chatbot_w
     {
         public void Executar()
         {
-            //Depois de criar a estrutura básica, vou usar o conector MySQL 
+            //Depois de criar a estrutura básica, vou usar o conector SQL 
             //para buscar as informações do cliente em uma tabela
             string NomeCliente;
             
-            Console.WriteLine ("Olá. Bem vindo ao Suporte ao Cliente.");
+            Console.WriteLine ("Olá. Bem vindo ao Suporte Técnico.");
             Console.WriteLine ("Para comerçamos, digite seu nome completo sem abreviações");
             NomeCliente=Console.ReadLine();
-            // aqui vou adicionar um if para verificar se o cliente realmente existe na tabela MySQL
+            // aqui vou adicionar um if para verificar se o cliente realmente existe na tabela SQL
             while (true)
             {
                 int Esc1;
@@ -61,6 +61,8 @@ namespace chatbot_w
                             }     
                                 break;
 
+
+
                         case 2:
                             Console.WriteLine("Certo. Primeiro verifique se todos os cabos estão conectatos de forma correta no roteador.");
                             Console.WriteLine("Além disso, também verifique se ele está devidamente ligado em uma tomada que funcione.");
@@ -78,6 +80,8 @@ namespace chatbot_w
                             }
                             break;
                         
+
+
                         case 3:
                             Console.WriteLine("Certo, parece que você deseja trocar a senha da sua rede.");
                             Console.WriteLine("Podemos te encaminhar um link no qual você pode mudar manualmente. Caso você queira trocar sozinho, digite 1 e em seguida te encaminharemos as instruções,");
@@ -115,13 +119,18 @@ namespace chatbot_w
                             }
                             break;
 
+
+
                         case 4:
                             new Atendente().Executar();
                             break;  
 
+
+
                         case 5:
                             new Sair().Executar();
                             break; 
+                            
                     } //while
                 } //if
             }  // CHAVE WHILE  
