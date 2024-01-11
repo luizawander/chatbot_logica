@@ -48,7 +48,27 @@ namespace chatbot_w.função
 
 
                         case 2:
-                        
+                            Console.WriteLine ("Certo, abaixo está o resumo de suas faturas em aberto");
+                            Console.WriteLine ("");
+                            //puxar da tabela as faturas em aberto
+
+                        break;
+
+
+                        case 3:
+                            Console.WriteLine ("OK, parece que você deseja negociar seus débitos em atraso."); 
+                            Console.WriteLine ("");
+                            // nesse caso, vamos pegar da tebela a informação das dívidas em atraso e oferecer ao cliente a opção de pagar o valor inteiro, sem juros. Ou pagar metade da dívida e parcelar a outra metade com 3% de juro. Ou parcelar toda a dívida com 6% de juros
+                        break;
+
+
+                        case 4:
+                            new Atendente().Executar();
+                        break;
+
+
+                        case 5:
+                            new Sair().Executar();
                         break;
                    }
                 }   
