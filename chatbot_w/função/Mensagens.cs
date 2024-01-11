@@ -22,7 +22,8 @@ namespace chatbot_w
                 Console.WriteLine("2: Preciso de suporte financeiro");
                 Console.WriteLine("3: Desejo alterar ou cancelar meu plano");
                 Console.WriteLine("4: Ainda não sou cliente e desejo me informar sobre os planos");
-                Console.WriteLine("5: Sair");
+                Console.WriteLine("5: Desejo falar com um atendente");
+                Console.WriteLine("6: Sair");
 
                 if (int.TryParse(Console.ReadLine(), out Escolha))
                 {
@@ -45,7 +46,11 @@ namespace chatbot_w
                         break;
             
                     case 5:
-                        Console.WriteLine("..."); // depois encaixar os métodos certos
+                        new Atendente().Executar();
+                    break;
+
+                    case 6:
+                        new Sair().Executar();
                         return;
                     }
                 }
