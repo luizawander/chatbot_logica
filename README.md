@@ -4,7 +4,7 @@ Oi, oi.
 
 Este é um projeto no qual tem como objetivo, sobretudo, treinar minha lógica da programação na linguagem C#, usando o .NET 8. 
 
-Ele consiste em criar um chat automatizado que simula o atendimento por whatsapp, no qual simula uma empresa de internet nomeada de "ZapZum".
+Ele consiste em criar um chat automatizado que simula o atendimento por whatsapp de empresa de internet nomeada de "ZapZum".
 
 Além da lógica, também quero tentar usar o conector do .NET com o MySQL e aprender a fazer as API's necessárias para o funcionamento do chat.
 
