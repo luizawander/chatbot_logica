@@ -25,4 +25,5 @@ Além disso, também criei uma tabela no MySQL, no qual vou a conectar no progra
 Vou deixar o link do script para que possam acessar: https://docs.google.com/document/d/1sSJhSREyk5d8Esi5WXqm3PVeIZrdDXIst6R2oDgDElo/edit?usp=sharing
 
 Eu ando tendo algumas dificuldades em criar a tabela, visto que é a primeira vez que faço um banco de dados mais "complexo". 
-Fóruns na internet tem sido meus aliados nesse processo.
+Fóruns na internet tem sido meus aliados nesse processo. 
+Apesar de estressante as vezes, entendo que os erros fazem parte e tudo bem demorar a solucionar algum problema :)
