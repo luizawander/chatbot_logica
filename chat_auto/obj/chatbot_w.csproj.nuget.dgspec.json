@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\chatbot_whatsapp_automatizado\\chatbot_w\\chatbot_w.csproj": {}
+    "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj": {}
   },
   "projects": {
-    "C:\\chatbot_whatsapp_automatizado\\chatbot_w\\chatbot_w.csproj": {
+    "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\chatbot_whatsapp_automatizado\\chatbot_w\\chatbot_w.csproj",
+        "projectUniqueName": "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj",
         "projectName": "chatbot_w",
-        "projectPath": "C:\\chatbot_whatsapp_automatizado\\chatbot_w\\chatbot_w.csproj",
+        "projectPath": "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj",
         "packagesPath": "C:\\Users\\luiza\\.nuget\\packages\\",
-        "outputPath": "C:\\chatbot_whatsapp_automatizado\\chatbot_w\\obj\\",
+        "outputPath": "C:\\chat_automatizado\\chat_auto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
