@@ -23,3 +23,6 @@ Também fiz uma classe que auxiliasse em certas mensagens repetidas, como a soli
 
 Além disso, também criei uma tabela no MySQL, no qual vou a conectar no programa para que certas informações fictícias sejam utilizadas. 
 Vou deixar o link do script para que possam acessar: https://docs.google.com/document/d/1sSJhSREyk5d8Esi5WXqm3PVeIZrdDXIst6R2oDgDElo/edit?usp=sharing
+
+Eu ando tendo algumas dificuldades em criar a tabela, visto que é a primeira vez que faço um banco de dados mais "complexo". 
+Fóruns na internet tem sido meus aliados nesse processo.
