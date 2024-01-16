@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xauYXJCJ2j4lyL6uITkeBFR/IsR9WsLJigISKNKv4XqOJosIEAwrMrrNGj3YHhotEjWLMXdQloCjQ5fwN19k6w==",
+  "dgSpecHash": "Qmrc3DXllHPvcqoDotwg/2sjqsfIusJbhyKZfJbNu0s3oksTh9fXyL8hz3zDrOY/vKE0zwxWRhjLDoUO3UIoKg==",
   "success": true,
-  "projectFilePath": "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj",
+  "projectFilePath": "C:\\chat_automatizado\\chat_auto\\chat_auto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

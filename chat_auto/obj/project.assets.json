@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj",
-      "projectName": "chatbot_w",
-      "projectPath": "C:\\chat_automatizado\\chat_auto\\chatbot_w.csproj",
+      "projectUniqueName": "C:\\chat_automatizado\\chat_auto\\chat_auto.csproj",
+      "projectName": "chat_auto",
+      "projectPath": "C:\\chat_automatizado\\chat_auto\\chat_auto.csproj",
       "packagesPath": "C:\\Users\\luiza\\.nuget\\packages\\",
       "outputPath": "C:\\chat_automatizado\\chat_auto\\obj\\",
       "projectStyle": "PackageReference",
