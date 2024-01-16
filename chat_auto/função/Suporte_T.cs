@@ -14,7 +14,7 @@ namespace chatbot_w
             string NomeCliente;
             
             Console.WriteLine ("Olá. Bem vindo ao Suporte Técnico.");
-            Console.WriteLine ("Para comerçamos, digite seu nome completo sem abreviações");
+            Console.WriteLine ("Para comerçamos, digite seu CPF, contendo apenas números");
             NomeCliente=Console.ReadLine();
             // aqui vou adicionar um if para verificar se o cliente realmente existe na tabela SQL
             while (true)
