@@ -27,3 +27,10 @@ Vou deixar o link do script para que possam acessar: https://docs.google.com/doc
 Eu ando tendo algumas dificuldades em criar a tabela, visto que é a primeira vez que faço um banco de dados mais "complexo". 
 Fóruns na internet tem sido meus aliados nesse processo. 
 Apesar de estressante as vezes, entendo que os erros fazem parte e tudo bem demorar a solucionar algum problema :)
+
+
+**16/01/2024**
+
+Hoje finalizei a estrutura da tabela no MySQL e incluir a maioria dos dados, amanhã vou só fazer alguns ajustes nele e já voltar para o código C# em si.
+
+Além disso, também corrigi um problema que tive após alterar o nome de alguns arquivos em meu PC. Como mudei o nome, o C# extensions não estava reconhecedo o projeto. Precisei fazer uma alteração manual no chat_auto.sln e lá atualizei os nomes para reconhecer os caminhos necessários.
