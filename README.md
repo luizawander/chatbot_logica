@@ -39,3 +39,6 @@ Além disso, também corrigi um problema que tive após alterar o nome de alguns
 **17/01/2024** 
 
 Estou tendo várias dificuldades de integrar minha tabela com o projeto, visto que seria muito mais simples se eu tivesse feito a tabela antes do projeto e já criar o projeto conectando com o MySQL. Estou cogitando duplicar os arquivos em uma ramificação e ir só me baseando no original para refazer.
+
+**aviso**
+resolvi que vou deixar esse projeto só contendo o treino da lógica da programação e vou criar outro arquivo para fazer o projeto do chat automatizado mais complexo.
