@@ -34,3 +34,8 @@ Apesar de estressante as vezes, entendo que os erros fazem parte e tudo bem demo
 Hoje finalizei a estrutura da tabela no MySQL e inclui a maioria dos dados, amanhã vou só fazer alguns ajustes neles e já voltar para o código C# em si.
 
 Além disso, também corrigi um problema que tive após alterar o nome de alguns arquivos em meu PC. Como mudei o nome, o C# extensions não estava reconhecedo o projeto. Precisei fazer uma alteração manual no chat_auto.sln e lá atualizei os nomes para reconhecer os caminhos necessários.
+
+
+**17/01/2024** 
+
+Estou tendo várias dificuldades de integrar minha tabela com o projeto, visto que seria muito mais simples se eu tivesse feito a tabela antes do projeto e já criar o projeto conectando com o MySQL. Estou cogitando duplicar os arquivos em uma ramificação e ir só me baseando no original para refazer.
