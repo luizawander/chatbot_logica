@@ -1,4 +1,4 @@
-## READme provisório.
+## READme.
 
 Oi, oi. 
 
