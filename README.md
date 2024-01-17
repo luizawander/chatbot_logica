@@ -4,7 +4,7 @@ Oi, oi.
 
 Este é um projeto no qual tem como objetivo, sobretudo, treinar minha lógica da programação na linguagem C#, usando o .NET 8. 
 
-Ele consiste em criar um chat automatizado que simula o atendimento por whatsapp de empresa de internet nomeada de "ZapZum".
+Ele consiste em criar um chat automatizado que simula o atendimento por whatsapp de uma empresa de internet nomeada de "ZapZum".
 
 Além da lógica, também quero tentar usar o conector do .NET com o MySQL e aprender a fazer as API's necessárias para o funcionamento do chat.
 
@@ -31,6 +31,6 @@ Apesar de estressante as vezes, entendo que os erros fazem parte e tudo bem demo
 
 **16/01/2024**
 
-Hoje finalizei a estrutura da tabela no MySQL e incluir a maioria dos dados, amanhã vou só fazer alguns ajustes nele e já voltar para o código C# em si.
+Hoje finalizei a estrutura da tabela no MySQL e inclui a maioria dos dados, amanhã vou só fazer alguns ajustes neles e já voltar para o código C# em si.
 
 Além disso, também corrigi um problema que tive após alterar o nome de alguns arquivos em meu PC. Como mudei o nome, o C# extensions não estava reconhecedo o projeto. Precisei fazer uma alteração manual no chat_auto.sln e lá atualizei os nomes para reconhecer os caminhos necessários.
