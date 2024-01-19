@@ -10,7 +10,7 @@ namespace chatbot_w.função
         public void Executar()
         {
             Console.WriteLine ("Olá. Bem vindo ao Suporte Técnico.");
-            Console.WriteLine ("Para comerçamos, digite seu CPF, apenas com números.");
+            Console.WriteLine ("Para comerçamos, digite seu CPF, apenas com os números.");
             string NomeCliente=Console.ReadLine();
             // aqui vou adicionar um if para verificar se o cliente realmente existe na tabela SQL
             while (true)
