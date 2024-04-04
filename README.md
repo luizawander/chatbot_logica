@@ -1,5 +1,11 @@
 ## READme.
 
+**aviso** <br/>
+**resolvi que vou deixar esse projeto só contendo o treino da lógica da programação e vou criar outro arquivo para fazer o projeto do chat automatizado mais complexo. Abaixo está um breve relato enquanto eu estivesse desenvolvendo a lógica das mensagens.** <br/>
+
+______________________________________________________________________________________ <br/>
+
+
 Oi, oi. 
 
 Este é um projeto no qual tem como objetivo, sobretudo, treinar minha lógica da programação na linguagem C#, usando o .NET 8. 
@@ -40,5 +46,3 @@ Além disso, também corrigi um problema que tive após alterar o nome de alguns
 
 Estou tendo várias dificuldades de integrar minha tabela com o projeto, visto que seria muito mais simples se eu tivesse feito a tabela antes do projeto e já criar o projeto conectando com o MySQL. Estou cogitando duplicar os arquivos em uma ramificação e ir só me baseando no original para refazer.
 
-**aviso**
-resolvi que vou deixar esse projeto só contendo o treino da lógica da programação e vou criar outro arquivo para fazer o projeto do chat automatizado mais complexo.
